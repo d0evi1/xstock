@@ -175,8 +175,8 @@ class StockPipeline(object):
         bvps            = self.get_first(item['bvps'])
         dps             = self.get_num(item['dps'])
 
-        pe_lyr          = self.get_first(item['pe_lyr'])
-        pe_ttm          = self.get_first(item['pe_ttm'])
+        pe_lyr          = item['pe_lyr']
+        pe_ttm          = item['pe_ttm']
         pb_ttm          = self.get_first(item['pb_ttm'])
         ps_ttm          = self.get_first(item['ps_ttm'])
 
